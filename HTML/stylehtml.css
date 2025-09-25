@@ -1,0 +1,42 @@
+button {
+  width: 10rem;
+}
+.d {
+  margin: auto;
+  width: 200px;
+}
+.dd {
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th:nth-child(even),
+td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.5);
+}
+
+.dh {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.dh > div {
+  width: 30%;
+  margin: 2px;
+  text-align: justify;
+  font-size: 30%;
+}
+.dw {
+  display: grid;
+  grid-template-columns: f1 f1 f1;
+}
+.dw > div {
+  width: 30%;
+
+  text-align: center;
+  font-size: 30%;
+}
