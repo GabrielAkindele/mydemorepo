@@ -10,15 +10,21 @@
 </head>
 
 <body>
-    <form>
+    <form id="frm" class="fr">
         <div>
-            <div style="margin: 1em;">
+            <div style="margin: 1em; width: 300px;">
                 <label for="txtname" class="form-label-control">Name</label>
                 <input type="text" id="txtname" class="form-control" name="firstname" />
             </div>
-            <button style="margin-left: 1em;" class="btn btn-lg btn-secondary">Click</button>
+
         </div>
+        <button style="margin-left: 1em;" class="btn btn-lg btn-secondary">Click</button>
     </form>
+    <script>
+        frm.onsubmit = function () {
+            alert("submit")
+        }
+    </script>
 </body>
 
 </html>
