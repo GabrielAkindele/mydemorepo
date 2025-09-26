@@ -10,21 +10,33 @@
 </head>
 
 <body>
-    <form id="frm" class="fr">
-        <div>
-            <div style="margin: 1em; width: 300px;">
-                <label for="txtname" class="form-label-control">Name</label>
-                <input type="text" id="txtname" class="form-control" name="firstname" />
-            </div>
+    <div class="container m-5 p-5 bg-light">
+        <form id="frm" class="p-3">
+            <fieldset>
+                <legend>Students Details</legend>
+                <div class="  bg-grey ">
+                    <div style="margin-bottom: 1em; width: 300px;">
+                        <label for="txtname" class="text-black ">First Name</label>
+                        <input type="text" id="txtFirstname" class="form-control" name="firstname" />
+                    </div>
 
-        </div>
-        <button style="margin-left: 1em;" class="btn btn-lg btn-secondary">Click</button>
-    </form>
-    <script>
-        frm.onsubmit = function () {
-            alert("submit")
-        }
-    </script>
+                </div>
+                <div class=" bg-gray ">
+                    <div style=" width: 300px;">
+                        <label for="txtname" class="text-balck ">Last Name</label>
+                        <input type="text" id="txtLastname" class="form-control-sm" name="firstname" />
+                    </div>
+
+                </div>
+                <button style="margin-left: 1em;" class="btn btn-lg btn-secondary">Click</button>
+            </fieldset>
+        </form>
+        <script>
+            frm.onsubmit = function () {
+                alert("submit")
+            }
+        </script>
+    </div>
 </body>
 
 </html>
