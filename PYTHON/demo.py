@@ -1,4 +1,6 @@
+from ctypes import ARRAY
 import math
 
-num = input("what is your name?  ")
+
 print("hello python")
+git

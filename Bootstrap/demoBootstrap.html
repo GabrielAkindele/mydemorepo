@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./node_modules/bootstrap/dist/js/bootstrap.js" />
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="container m-5 p-5 bg-light">
+        <form id="frm" class="p-3">
+            <fieldset>
+                <legend>Students Details</legend>
+                <div class="  bg-grey ">
+                    <div style="margin-bottom: 1em; width: 300px;">
+                        <label for="txtname" class="text-black ">First Name</label>
+                        <input type="text" id="txtFirstname" class="form-control" name="firstname" />
+                    </div>
+
+                </div>
+                <div class=" bg-gray ">
+                    <div style=" width: 300px;">
+                        <label for="txtname" class="text-balck ">Last Name</label>
+                        <input type="text" id="txtLastname" class="form-control-sm" name="firstname" />
+                    </div>
+
+                </div>
+                <button style="margin-left: 1em;" class="btn btn-lg btn-secondary">Click</button>
+            </fieldset>
+        </form>
+        <script>
+            frm.onsubmit = function () {
+                alert("submit")
+            }
+        </script>
+    </div>
+</body>
+
+</html>
